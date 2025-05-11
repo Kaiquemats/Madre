@@ -1,5 +1,5 @@
 /* CSS existente permanece igual até aqui */
-
+@charset "UTF-8";
 /* Responsividade para telas menores */
 @media (max-width: 600px) {
   #envelope {
