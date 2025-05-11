@@ -1,0 +1,107 @@
+/* CSS existente permanece igual até aqui */
+
+/* Responsividade para telas menores */
+@media (max-width: 600px) {
+  #envelope {
+    width: 200px;
+    height: 130px;
+    top: 100px;
+  }
+
+  .flap {
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 60px solid transparent;
+    border-top: 70px solid #d9534f;
+  }
+
+  .pocket {
+    border-left: 100px solid #f5a3a2;
+    border-right: 100px solid #f5a3a2;
+    border-bottom: 70px solid #ff6f61;
+    border-top: 60px solid transparent;
+  }
+
+  .letter {
+    width: 92%;
+    height: 88%;
+  }
+
+  .words {
+    font-size: 0.8rem;
+    height: 12%;
+  }
+
+  .words.line1 {
+    font-size: 0.6rem;
+    top: 10%;
+    height: 8%;
+  }
+
+  .words.line2,
+  .words.line3,
+  .words.line4 {
+    font-size: 0.9rem;
+  }
+
+  .hearts {
+    top: 65px;
+  }
+
+  .heart:before,
+  .heart:after {
+    width: 30px;
+    height: 50px;
+    border-radius: 30px 30px 0 0;
+  }
+
+  .reset button {
+    font-size: 12px;
+    padding: 8px;
+    min-width: 100px;
+  }
+}
+
+/* Para telas muito pequenas */
+@media (max-width: 360px) {
+  #envelope {
+    width: 180px;
+    height: 110px;
+    top: 80px;
+  }
+
+  .flap {
+    border-left: 90px solid transparent;
+    border-right: 90px solid transparent;
+    border-bottom: 50px solid transparent;
+    border-top: 60px solid #d9534f;
+  }
+
+  .pocket {
+    border-left: 90px solid #f5a3a2;
+    border-right: 90px solid #f5a3a2;
+    border-bottom: 60px solid #ff6f61;
+    border-top: 50px solid transparent;
+  }
+
+  .letter {
+    width: 94%;
+    height: 86%;
+  }
+
+  .words.line2,
+  .words.line3,
+  .words.line4 {
+    font-size: 0.8rem;
+  }
+
+  .hearts {
+    top: 60px;
+  }
+
+  .heart:before,
+  .heart:after {
+    width: 25px;
+    height: 40px;
+  }
+}
